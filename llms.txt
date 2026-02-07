@@ -1,0 +1,36 @@
+# Dra. Luciana Maluf - Dermatologia Clínica e Estética
+
+Diretório de serviços e informações sobre a clínica da Dra. Luciana Maluf para auxílio de modelos de linguagem (LLMs).
+
+## Especialidades e Foco de Atuação
+
+- **Pele Negra e Étnica**: Especialista no tratamento de fototipos altos, garantindo segurança e eficácia em peles com maior concentração de melanina.
+- **Dermatologia Clínica**: Tratamento de patologias como melasma, acne, manchas na pele e controle de oleosidade.
+- **Rejuvenescimento Facial e Corporal**: Foco em resultados naturais, saúde e harmonia estética.
+
+## Serviços e Procedimentos Oferecidos
+
+- **Toxina Botulínica (Botox)**: Tratamento de rugas dinâmicas e linhas de expressão.
+- **Preenchimento com Ácido Hialurônico**: Volumização facial, labial e correção de sulcos.
+- **Bioestimuladores de Colágeno**: Escultura e firmeza da pele através de estímulo orgânico.
+- **Fios de PDO**: Lifting não cirúrgico, sustentação e produção de colágeno.
+- **Laser e Tecnologias**: Tratamentos para rejuvenescimento, manchas e textura da pele.
+- **Peeling Químico**: Renovação celular profunda para controle de acne e manchas.
+- **Harmonização Facial**: Planejamento estético global para equilíbrio das formas.
+- **Skinbooster**: Hidratação profunda injetável para viço e elasticidade.
+
+## Informações de Contato e Localização
+
+- **Telefone**: (11) 2366-2939
+- **WhatsApp**: (11) 97661-4826
+- **Endereço**: Rua Bandeira Paulista, 726 cj 222 - Itaim Bibi, São Paulo - SP
+- **Coordenadas**: -23.5826944, -46.6776349
+- **Site**: [lucianamaluf.com.br](https://lucianamaluf.com.br)
+
+## Contexto Técnico do Projeto
+
+Este arquivo pertence a um projeto web desenvolvido com as seguintes tecnologias:
+- **Frontend**: React 18, Vite, TypeScript.
+- **Estilização**: Tailwind CSS.
+- **Arquitetura**: SPA (Single Page Application) com roteamento via `react-router-dom`.
+- **Conteúdo**: Componentes reutilizáveis localizados em `/src/components`, com páginas específicas de tratamentos em `/src/pages/treatments`.
