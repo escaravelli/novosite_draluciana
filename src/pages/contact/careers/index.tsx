@@ -7,14 +7,14 @@ import { Upload, Send, Briefcase } from "lucide-react";
 
 export function CareersPage() {
   return (
-    <section className="py-24 bg-gradient-to-b from-white to-[#fff5f8]">
-      <div className="container mx-auto px-4">
+    <section className="pt-24 md:pt-32 pb-12 md:pb-24 bg-gradient-to-b from-white to-[#fff5f8]">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="max-w-3xl mx-auto text-center mb-16"
+          className="max-w-3xl mx-auto text-center mb-8 md:mb-16"
         >
           <h1 className="text-4xl md:text-5xl font-bold text-[#6f0d44] mb-6">
             Trabalhe Conosco
@@ -30,9 +30,9 @@ export function CareersPage() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="space-y-8 bg-white/50 backdrop-blur-sm p-8 rounded-lg"
+            className="space-y-6 md:space-y-8 bg-white/50 backdrop-blur-sm p-4 md:p-8 rounded-lg"
           >
-            <div className="grid md:grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
               <div className="space-y-2">
                 <Label htmlFor="name">Nome Completo</Label>
                 <Input id="name" placeholder="Digite seu nome" />
@@ -43,7 +43,7 @@ export function CareersPage() {
               </div>
             </div>
 
-            <div className="grid md:grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
               <div className="space-y-2">
                 <Label htmlFor="phone">Telefone</Label>
                 <Input id="phone" placeholder="(11) 99999-9999" />
@@ -98,7 +98,7 @@ export function CareersPage() {
             <h2 className="text-2xl font-bold text-[#6f0d44] mb-4">
               Por que trabalhar conosco?
             </h2>
-            <div className="grid md:grid-cols-3 gap-6 mt-8">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 md:gap-6 mt-6 md:mt-8">
               {[
                 "Ambiente profissional e acolhedor",
                 "Oportunidades de crescimento",

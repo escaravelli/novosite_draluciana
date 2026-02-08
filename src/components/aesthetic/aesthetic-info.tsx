@@ -7,7 +7,7 @@ export function AestheticInfo() {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.8 }}
-      className="bg-white/50 backdrop-blur-sm rounded-lg p-8 mb-16"
+      className="bg-white/50 backdrop-blur-sm rounded-lg p-4 md:p-8 mb-8 md:mb-16"
     >
       <p className="text-gray-600 leading-relaxed">
         Todos os procedimentos são utilizados individualmente ou em combinação, de acordo 

@@ -27,8 +27,8 @@ export function TreatmentCard({ title, description, image, href, index }: Treatm
           />
           <div className="absolute inset-0 bg-gradient-to-t from-[#6f0d44]/90 via-[#6f0d44]/40 to-transparent opacity-80 group-hover:opacity-90 transition-opacity duration-300" />
         </div>
-        <div className="absolute inset-0 p-6 flex flex-col justify-end">
-          <h3 className="text-2xl font-bold text-[#6f0d44] mb-2 group-hover:text-[#ffc2dd] transition-colors">
+        <div className="absolute inset-0 p-4 md:p-6 flex flex-col justify-end">
+          <h3 className="text-xl md:text-2xl font-bold text-[#6f0d44] mb-2 group-hover:text-[#ffc2dd] transition-colors">
             {title}
           </h3>
           <p className="text-[#6f0d44]/90 text-sm leading-relaxed line-clamp-2 group-hover:text-[#6f0d44]">

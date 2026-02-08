@@ -22,12 +22,12 @@ export function HomePage() {
       <TreatmentsList />
       <Workshop />
       <Materials />
-      <section className="py-20 bg-white">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl md:text-4xl font-semibold text-[#6f0d44] mb-12 text-center">
+      <section className="py-10 md:py-20 bg-white">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl md:text-4xl font-semibold text-[#6f0d44] mb-6 md:mb-12 text-center">
             Tratamentos Especializados
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-8">
             <div className="bg-white rounded-lg shadow-lg p-6">
               <h3 className="text-xl font-semibold mb-4 text-[#6f0d44]">Dermatologia Clínica</h3>
               <p className="text-gray-600 mb-4">
@@ -61,13 +61,13 @@ export function HomePage() {
           </div>
         </div>
       </section>
-      <section className="py-20 bg-gray-50">
-        <div className="container mx-auto px-4">
+      <section className="py-10 md:py-20 bg-gray-50">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-semibold text-[#6f0d44] mb-6">
+            <h2 className="text-3xl md:text-4xl font-semibold text-[#6f0d44] mb-4 md:mb-6">
               Dra. Luciana Maluf
             </h2>
-            <p className="text-gray-600 mb-8 text-lg">
+            <p className="text-gray-600 mb-6 md:mb-8 text-base md:text-lg">
               Com mais de 20 anos de experiência em dermatologia, a Dra. Luciana Maluf é especialista em tratamentos estéticos e clínicos, oferecendo o que há de mais moderno em procedimentos dermatológicos.
             </p>
             <Link

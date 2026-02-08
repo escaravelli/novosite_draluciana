@@ -10,7 +10,7 @@ import {
 
 export function Workshop() {
   return (
-    <section className="relative py-32 min-h-[800px] overflow-hidden">
+    <section className="relative py-16 md:py-32 min-h-[500px] md:min-h-[800px] overflow-hidden">
       {/* Video Background */}
       <div className="absolute inset-0 w-full h-full">
         <div className="relative w-full h-full">
@@ -51,7 +51,7 @@ export function Workshop() {
                 viewport={{ once: true }}
                 transition={{ duration: 0.8, delay: 0.2 }}
               >
-                <CardTitle className="text-5xl font-bold mb-4">
+                <CardTitle className="text-3xl md:text-5xl font-bold mb-4">
                   Workshop Avançado de
                   <br />
                   Fios de PDO High-Tech

@@ -7,7 +7,7 @@ export function AestheticIntro() {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.8 }}
-      className="max-w-4xl mx-auto text-center mb-16"
+      className="max-w-4xl mx-auto text-center mb-8 md:mb-16"
     >
       <p className="text-lg text-gray-600 leading-relaxed">
         Depois de uma anamnese completa, que envolverá a análise de seus hábitos, cuidados 

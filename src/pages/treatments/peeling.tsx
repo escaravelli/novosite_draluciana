@@ -56,7 +56,7 @@ export function PeelingPage() {
           </div>
         </div>
 
-        <div className="relative container mx-auto px-4">
+        <div className="relative container mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -84,8 +84,8 @@ export function PeelingPage() {
       </section>
 
       {/* Procedure Information */}
-      <section className="py-24 bg-gradient-to-b from-white to-[#fff5f8]">
-        <div className="container mx-auto px-4">
+      <section className="py-12 md:py-24 bg-gradient-to-b from-white to-[#fff5f8]">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-start">
             <motion.div
               initial={{ opacity: 0, x: -50 }}
@@ -156,8 +156,8 @@ export function PeelingPage() {
       </section>
 
       {/* Benefits */}
-      <section className="py-24 bg-white">
-        <div className="container mx-auto px-4">
+      <section className="py-12 md:py-24 bg-white">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -196,8 +196,8 @@ export function PeelingPage() {
       </section>
 
       {/* Contraindications */}
-      <section className="py-24 bg-white">
-        <div className="container mx-auto px-4">
+      <section className="py-12 md:py-24 bg-white">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -221,8 +221,8 @@ export function PeelingPage() {
       </section>
 
       {/* FAQ */}
-      <section className="py-24 bg-gradient-to-b from-[#fff5f8] to-white">
-        <div className="container mx-auto px-4">
+      <section className="py-12 md:py-24 bg-gradient-to-b from-[#fff5f8] to-white">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}

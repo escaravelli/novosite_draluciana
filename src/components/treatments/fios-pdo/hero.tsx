@@ -4,7 +4,7 @@ import { ChevronRight } from "lucide-react";
 
 export function FiosPDOHero() {
   return (
-    <section className="relative min-h-[70vh] flex items-center">
+    <section className="relative min-h-[50vh] md:min-h-[70vh] flex items-center">
       <div className="absolute inset-0 w-full h-full">
         <div className="relative w-full h-full">
           <img
@@ -16,14 +16,14 @@ export function FiosPDOHero() {
         </div>
       </div>
 
-      <div className="relative container mx-auto px-4">
+      <div className="relative container mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           className="max-w-3xl"
         >
-          <h1 className="text-4xl md:text-6xl font-light mb-6 text-white tracking-tight">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-light mb-6 text-white tracking-tight">
             Fios de PDO
             <br />
             <span className="font-semibold">High-Tech</span>

@@ -2,9 +2,9 @@ import { Card } from "@/components/ui/card";
 
 export function AboutPage() {
   return (
-    <div className="container mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold text-[#6f0d44] mb-8">Sobre</h1>
-      <Card className="p-6">
+    <div className="container mx-auto px-4 sm:px-6 lg:px-8 pt-24 md:pt-28 pb-12 md:pb-16">
+      <h1 className="text-3xl md:text-4xl font-bold text-[#6f0d44] mb-6 md:mb-8">Sobre</h1>
+      <Card className="p-4 md:p-6">
         <div className="prose max-w-none">
           <p className="text-gray-600 mb-4">
             A Dra. Luciana Maluf é uma dermatologista altamente qualificada, com mais de 20 anos de experiência na área. 

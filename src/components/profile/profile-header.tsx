@@ -7,7 +7,7 @@ export function ProfileHeader() {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.8 }}
-      className="max-w-3xl mx-auto text-center mb-16"
+      className="max-w-3xl mx-auto text-center mb-8 md:mb-16"
     >
       <h1 className="text-4xl md:text-5xl font-bold text-[#6f0d44] mb-6">
         Perfil Profissional

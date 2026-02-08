@@ -28,7 +28,7 @@ export function TreatmentDetail({
   return (
     <>
       {/* Hero Section */}
-      <section className="relative min-h-[85vh] overflow-hidden">
+      <section className="relative min-h-[50vh] md:min-h-[70vh] overflow-hidden">
         <div className="absolute inset-0">
           <div className="relative h-full">
             <img
@@ -40,8 +40,8 @@ export function TreatmentDetail({
           </div>
         </div>
 
-        <div className="relative container mx-auto px-4 h-full">
-          <div className="flex flex-col justify-center h-full min-h-[85vh] max-w-3xl">
+        <div className="relative container mx-auto px-4 sm:px-6 lg:px-8 h-full">
+          <div className="flex flex-col justify-center h-full min-h-[50vh] md:min-h-[70vh] max-w-3xl">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -53,7 +53,7 @@ export function TreatmentDetail({
                 <ArrowRight className="h-4 w-4" />
               </div>
 
-              <h1 className="text-6xl md:text-8xl font-light text-white tracking-tight">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-light text-white tracking-tight">
                 {title.split(' ')[0]}
                 <br />
                 <span className="font-semibold">{title.split(' ').slice(1).join(' ')}</span>
@@ -134,8 +134,8 @@ export function TreatmentDetail({
       </section>
 
       {/* Treatment Details */}
-      <section id="saiba-mais" className="py-24 bg-gradient-to-b from-white to-[#fff5f8]">
-        <div className="container mx-auto px-4">
+      <section id="saiba-mais" className="py-12 md:py-24 bg-gradient-to-b from-white to-[#fff5f8]">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-start">
             <motion.div
               initial={{ opacity: 0, x: -50 }}

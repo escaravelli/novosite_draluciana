@@ -83,11 +83,11 @@ export function HeroSection({
 
       {/* Content */}
       <div className="relative h-full flex items-center">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
             <div className="relative">
               <div className="absolute -left-4 top-0 w-1 h-32 bg-white/30" />
-              <h1 className="text-4xl md:text-6xl lg:text-7xl font-light mb-6 text-white tracking-tight">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-light mb-6 text-white tracking-tight">
                 {subtitle && <span className="block mb-2 text-2xl md:text-3xl text-white/80">{subtitle}</span>}
                 {title.split('<br/>').map((part, i) => (
                   <span key={i} className={i > 0 ? "font-semibold block" : "block"}>{part}</span>

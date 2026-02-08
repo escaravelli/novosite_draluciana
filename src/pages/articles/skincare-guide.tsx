@@ -6,8 +6,8 @@ export function SkincareGuideArticlePage() {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative py-24 bg-gradient-to-b from-[#fff5f8] to-white overflow-hidden">
-        <div className="container mx-auto px-4">
+      <section className="relative py-12 md:py-24 bg-gradient-to-b from-[#fff5f8] to-white overflow-hidden">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <motion.div
               initial={{ opacity: 0, x: -50 }}
@@ -41,8 +41,8 @@ export function SkincareGuideArticlePage() {
       </section>
 
       {/* Content Section */}
-      <section className="py-24 bg-gradient-to-b from-white to-[#fff5f8]">
-        <div className="container mx-auto px-4">
+      <section className="py-12 md:py-24 bg-gradient-to-b from-white to-[#fff5f8]">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-start">
             <motion.div
               initial={{ opacity: 0, x: -50 }}
@@ -130,8 +130,8 @@ export function SkincareGuideArticlePage() {
       </section>
 
       {/* Schedule Section */}
-      <section className="py-24 bg-gradient-to-b from-[#fff5f8] to-white">
-        <div className="container mx-auto px-4 text-center">
+      <section className="py-12 md:py-24 bg-gradient-to-b from-[#fff5f8] to-white">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}

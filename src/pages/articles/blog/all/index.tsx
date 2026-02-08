@@ -92,9 +92,9 @@ export function BlogListPage() {
   };
 
   return (
-    <section className="py-24 bg-gradient-to-b from-white to-[#fff5f8]">
-      <div className="container mx-auto px-4">
-        <div className="max-w-3xl mx-auto text-center mb-16">
+    <section className="pt-24 md:pt-32 pb-12 md:pb-24 bg-gradient-to-b from-white to-[#fff5f8]">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-3xl mx-auto text-center mb-8 md:mb-16">
           <h1 className="text-4xl md:text-5xl font-bold text-[#6f0d44] mb-6">Blog</h1>
           <p className="text-lg md:text-xl text-gray-600 leading-relaxed">
             Fique por dentro das últimas novidades em dermatologia e cuidados com a pele
@@ -109,7 +109,7 @@ export function BlogListPage() {
           <div className="text-center text-red-600">{error}</div>
         ) : (
           <>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8">
               {posts.map((post) => (
                 <Card key={post.id} className="h-full bg-white/50 backdrop-blur-sm border-none hover:shadow-lg transition-all duration-300 overflow-hidden">
                   <img

@@ -59,12 +59,12 @@ export default function TreatmentsPage() {
       />
 
       <div className="bg-gradient-to-b from-white via-[#fff5f8] to-white">
-        <div className="container mx-auto px-4 py-24">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-24">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8"
           >
             {treatments.map((treatment) => (
               <TreatmentCard

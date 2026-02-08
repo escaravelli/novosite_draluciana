@@ -26,7 +26,7 @@ export function AestheticProcedures() {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.8 }}
-      className="mb-16"
+      className="mb-8 md:mb-16"
     >
       <h2 className="text-3xl font-bold text-[#6f0d44] text-center mb-8">
         Procedimentos

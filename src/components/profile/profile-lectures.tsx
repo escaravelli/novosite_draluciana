@@ -17,7 +17,7 @@ export function ProfileLectures() {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.8 }}
-      className="bg-white/50 backdrop-blur-sm rounded-lg p-8"
+      className="bg-white/50 backdrop-blur-sm rounded-lg p-4 md:p-8"
     >
       <div className="flex items-center gap-3 mb-6">
         <Presentation className="h-6 w-6 text-[#6f0d44]" />

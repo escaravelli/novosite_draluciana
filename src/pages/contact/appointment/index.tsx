@@ -98,7 +98,7 @@ Enviado através do site`;
   };
 
   return (
-    <div className="container mx-auto px-4 py-16 md:py-24">
+    <div className="container mx-auto px-4 sm:px-6 lg:px-8 pt-24 md:pt-32 pb-12 md:pb-24">
       <div className="max-w-4xl mx-auto">
         <h1 className="text-4xl md:text-5xl font-bold text-[#6f0d44] mb-8 text-center">
           Agende sua Consulta
@@ -108,7 +108,7 @@ Enviado através do site`;
             onSubmit={handleSubmit}
             className="space-y-6"
           >
-            <div className="grid md:grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
               <div className="space-y-2">
                 <Label htmlFor="name">Nome Completo*</Label>
                 <Input 
@@ -134,7 +134,7 @@ Enviado através do site`;
               </div>
             </div>
 
-            <div className="grid md:grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
               <div className="space-y-2">
                 <Label htmlFor="phone">Telefone*</Label>
                 <Input 

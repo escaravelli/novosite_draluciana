@@ -76,8 +76,8 @@ export function AllBlogPostsPage() {
   };
 
   return (
-    <section className="py-24 bg-gradient-to-b from-white to-[#fff5f8] min-h-screen">
-      <div className="container mx-auto px-4">
+    <section className="py-12 md:py-24 bg-gradient-to-b from-white to-[#fff5f8] min-h-screen">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}

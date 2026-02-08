@@ -4,14 +4,14 @@ import { MapPin, Phone, Mail, Clock, ExternalLink } from "lucide-react";
 
 export function LocationPage() {
   return (
-    <section className="py-24 bg-gradient-to-b from-white to-[#fff5f8]">
-      <div className="container mx-auto px-4">
+    <section className="pt-24 md:pt-32 pb-12 md:pb-24 bg-gradient-to-b from-white to-[#fff5f8]">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="max-w-3xl mx-auto text-center mb-16"
+          className="max-w-3xl mx-auto text-center mb-8 md:mb-16"
         >
           <h1 className="text-4xl md:text-5xl font-bold text-[#6f0d44] mb-6">
             Localização
@@ -21,14 +21,14 @@ export function LocationPage() {
           </p>
         </motion.div>
 
-        <div className="grid lg:grid-cols-2 gap-12">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-12">
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
           >
-            <div className="bg-white/50 backdrop-blur-sm p-8 rounded-lg space-y-8">
+            <div className="bg-white/50 backdrop-blur-sm p-4 md:p-8 rounded-lg space-y-6 md:space-y-8">
               <div className="space-y-4">
                 <div className="flex items-start gap-3">
                   <MapPin className="w-6 h-6 text-[#6f0d44] mt-1" />

@@ -9,8 +9,8 @@ export function ProfilePage() {
   return (
     <>
       <ProfileHero />
-      <section className="py-24 bg-gradient-to-b from-white to-[#fff5f8]">
-        <div className="container mx-auto px-4">
+      <section className="py-12 md:py-24 bg-gradient-to-b from-white to-[#fff5f8]">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <ProfileHeader />
           <ProfileIntro />
           <ProfileAchievements />

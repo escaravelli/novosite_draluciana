@@ -11,7 +11,7 @@ interface TreatmentHeroProps {
 
 export function TreatmentHero({ title, subtitle, description, image }: TreatmentHeroProps) {
   return (
-    <section className="relative min-h-[70vh] flex items-center">
+    <section className="relative min-h-[50vh] md:min-h-[70vh] flex items-center">
       {/* Background Image */}
       <div className="absolute inset-0 w-full h-full">
         <div className="relative w-full h-full">
@@ -25,7 +25,7 @@ export function TreatmentHero({ title, subtitle, description, image }: Treatment
       </div>
 
       {/* Content */}
-      <div className="relative container mx-auto px-4 pt-20">
+      <div className="relative container mx-auto px-4 sm:px-6 lg:px-8 pt-20">
         <div className="max-w-3xl">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -34,7 +34,7 @@ export function TreatmentHero({ title, subtitle, description, image }: Treatment
             className="relative"
           >
             <div className="absolute -left-4 top-0 w-1 h-32 bg-white/30" />
-            <h1 className="text-4xl md:text-6xl font-light mb-4 text-white tracking-tight">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-light mb-4 text-white tracking-tight">
               {title}
               <br />
               <span className="font-semibold">{subtitle}</span>

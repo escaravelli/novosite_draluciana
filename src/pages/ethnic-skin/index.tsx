@@ -7,7 +7,7 @@ export function EthnicSkinPage() {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative min-h-screen w-full flex items-center">
+      <section className="relative min-h-[60vh] md:min-h-[80vh] w-full flex items-center">
         <div className="absolute inset-0">
           <div className="relative h-full">
             <img
@@ -19,8 +19,8 @@ export function EthnicSkinPage() {
           </div>
         </div>
 
-        <div className="relative container mx-auto p-0 h-full">
-          <div className="flex flex-col justify-center h-full min-h-screen max-w-3xl">
+        <div className="relative container mx-auto px-4 sm:px-6 lg:px-8 h-full">
+          <div className="flex flex-col justify-center h-full min-h-[60vh] md:min-h-[80vh] max-w-3xl">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -32,7 +32,7 @@ export function EthnicSkinPage() {
                 <span className="text-sm">Tratamento Especializado</span>
                 <ChevronRight className="h-4 w-4" />
               </div>
-              <h1 className="text-4xl md:text-6xl lg:text-7xl font-light mb-6 text-white tracking-tight">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-light mb-6 text-white tracking-tight">
                 Pele
                 <br />
                 <span className="font-semibold">Étnica</span>
@@ -74,7 +74,7 @@ export function EthnicSkinPage() {
 
       {/* Content Sections */}
       <div className="bg-gradient-to-b from-white to-[#fff5f8]">
-        <div className="container mx-auto p-0 py-24">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-24">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -82,14 +82,14 @@ export function EthnicSkinPage() {
             transition={{ duration: 0.8 }}
             className="max-w-4xl mx-auto"
           >
-            <h2 className="text-3xl font-bold text-[#6f0d44] mb-12">
+            <h2 className="text-2xl md:text-3xl font-bold text-[#6f0d44] mb-6 md:mb-12">
               Tratamentos Especializados
             </h2>
 
-            <div className="grid md:grid-cols-2 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
               <Link
                 to="/ethnic-skin/hyperpigmentation"
-                className="group block bg-white/50 backdrop-blur-sm p-6 rounded-lg hover:bg-white/70 transition-all duration-300"
+                className="group block bg-white/50 backdrop-blur-sm p-4 md:p-6 rounded-lg hover:bg-white/70 transition-all duration-300"
               >
                 <h3 className="text-xl font-semibold text-[#6f0d44] mb-4 group-hover:translate-x-2 transition-transform">
                   Hiperpigmentação
@@ -103,7 +103,7 @@ export function EthnicSkinPage() {
 
               <Link
                 to="/ethnic-skin/scars"
-                className="group block bg-white/50 backdrop-blur-sm p-6 rounded-lg hover:bg-white/70 transition-all duration-300"
+                className="group block bg-white/50 backdrop-blur-sm p-4 md:p-6 rounded-lg hover:bg-white/70 transition-all duration-300"
               >
                 <h3 className="text-xl font-semibold text-[#6f0d44] mb-4 group-hover:translate-x-2 transition-transform">
                   Cicatrizes

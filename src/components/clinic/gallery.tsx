@@ -8,13 +8,13 @@ export function ClinicGallery() {
   ];
 
   return (
-    <section className="py-24 bg-white">
-      <div className="container mx-auto px-4">
+    <section className="py-12 md:py-24 bg-white">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-center mb-12"
+          className="text-center mb-6 md:mb-12"
         >
           <h2 className="text-3xl font-bold text-[#6f0d44] mb-4">
             Nossa Clínica
@@ -24,7 +24,7 @@ export function ClinicGallery() {
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-8">
           {images.map((image, index) => (
             <motion.div
               key={index}

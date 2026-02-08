@@ -151,21 +151,21 @@ export default function PressPage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-white to-[#fff5f8]">
       {/* Hero Section */}
-      <section className="relative h-[60vh] min-h-[500px] w-full bg-gradient-to-r from-[#6f0d44] to-[#9b1b47] overflow-hidden">
+      <section className="relative min-h-[60vh] md:min-h-[80vh] w-full bg-gradient-to-r from-[#6f0d44] to-[#9b1b47] overflow-hidden">
         {/* Background Pattern */}
         <div className="absolute inset-0 opacity-10">
           <div className="absolute inset-0" style={{ backgroundImage: 'url("/pattern.svg")', backgroundSize: '30px' }} />
         </div>
 
         {/* Content */}
-        <div className="container mx-auto px-4 h-full flex flex-col justify-center">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 h-full flex flex-col justify-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
             className="max-w-3xl"
           >
-            <h1 className="text-4xl md:text-6xl font-light mb-6 text-white">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-light mb-6 text-white">
               Imprensa
             </h1>
             <p className="text-lg md:text-xl text-white/90 mb-8 leading-relaxed">
@@ -204,17 +204,17 @@ export default function PressPage() {
       </section>
 
       {/* Articles Grid */}
-      <div id="articles" className="container mx-auto px-4 py-16">
+      <div id="articles" className="container mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-24">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <h1 className="text-4xl md:text-5xl font-light mb-12 text-[#6f0d44]">
+          <h1 className="text-3xl md:text-5xl font-light mb-6 md:mb-12 text-[#6f0d44]">
             Artigos
           </h1>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8">
             {pressArticles.map((article, index) => (
               <motion.div
                 key={index}
@@ -246,7 +246,7 @@ export default function PressPage() {
                       />
                     )}
                   </div>
-                  <div className="p-6">
+                  <div className="p-4 md:p-6">
                     <h3 className="text-lg font-semibold text-[#6f0d44] mb-2">
                       {article.title}
                     </h3>

@@ -4,7 +4,7 @@ import { ChevronRight } from "lucide-react";
 
 export function AestheticHero() {
   return (
-    <section className="relative min-h-[85vh] overflow-hidden">
+    <section className="relative min-h-[60vh] md:min-h-[80vh] overflow-hidden">
       <div className="absolute inset-0">
         <div className="relative h-full">
           <img
@@ -16,14 +16,14 @@ export function AestheticHero() {
         </div>
       </div>
 
-      <div className="relative container mx-auto px-4 h-full">
-        <div className="flex flex-col justify-center h-full min-h-[85vh] max-w-3xl">
+      <div className="relative container mx-auto px-4 sm:px-6 lg:px-8 h-full">
+        <div className="flex flex-col justify-center h-full min-h-[60vh] md:min-h-[80vh] max-w-3xl">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <h1 className="text-4xl md:text-6xl font-light mb-6 text-white tracking-tight">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-light mb-6 text-white tracking-tight">
               Dermatologia
               <br />
               <span className="font-semibold">Estética</span>

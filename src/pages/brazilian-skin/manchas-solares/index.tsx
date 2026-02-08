@@ -27,7 +27,7 @@ export function BrazilianSkinManchasSolaresPage() {
       />
       <div className="min-h-screen bg-gradient-to-b from-white to-[#fff5f8]">
         {/* Hero Section */}
-        <section className="relative min-h-screen flex items-center">
+        <section className="relative min-h-[50vh] md:min-h-[70vh] flex items-center">
           {/* Background Image */}
           <div className="absolute inset-0 w-full h-full">
             <div className="relative w-full h-full">
@@ -41,7 +41,7 @@ export function BrazilianSkinManchasSolaresPage() {
           </div>
 
           {/* Content */}
-          <div className="relative container mx-auto px-4 pt-20">
+          <div className="relative container mx-auto px-4 sm:px-6 lg:px-8 pt-20">
             <div className="max-w-3xl">
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
@@ -54,7 +54,7 @@ export function BrazilianSkinManchasSolaresPage() {
                   <span className="text-sm">Tratamento Especializado</span>
                   <ChevronRight className="h-4 w-4" />
                 </div>
-                <h1 className="text-4xl md:text-6xl lg:text-7xl font-light mb-6 text-white tracking-tight">
+                <h1 className="text-4xl md:text-5xl lg:text-6xl font-light mb-6 text-white tracking-tight">
                   Manchas
                   <br />
                   <span className="font-semibold">Solares</span>
@@ -95,8 +95,8 @@ export function BrazilianSkinManchasSolaresPage() {
         </section>
 
         {/* Content Sections */}
-        <section className="py-24">
-          <div className="container mx-auto px-4">
+        <section className="py-12 md:py-24">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="max-w-2xl mx-auto">
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
@@ -118,7 +118,7 @@ export function BrazilianSkinManchasSolaresPage() {
                 <h2 className="text-3xl font-bold text-[#6f0d44] mb-8 mt-24">
                   Tratamentos Disponíveis
                 </h2>
-                <div className="grid md:grid-cols-2 gap-8 mb-16">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 mb-8 md:mb-16">
                   <div className="bg-white/50 backdrop-blur-sm p-6 rounded-lg">
                     <h3 className="text-xl font-semibold text-[#6f0d44] mb-4">Laser Clareador</h3>
                     <p className="text-gray-600">
@@ -148,7 +148,7 @@ export function BrazilianSkinManchasSolaresPage() {
                 <h2 className="text-3xl font-bold text-[#6f0d44] mb-8">
                   Benefícios dos Tratamentos
                 </h2>
-                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-8">
                   {[
                     'Clareamento gradual',
                     'Uniformização do tom',
@@ -170,7 +170,7 @@ export function BrazilianSkinManchasSolaresPage() {
                 <h2 className="text-3xl font-bold text-[#6f0d44] mb-8 mt-24">
                   Nossa Abordagem
                 </h2>
-                <div className="grid md:grid-cols-2 gap-8 mb-16">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 mb-8 md:mb-16">
                   <div className="bg-white/50 backdrop-blur-sm p-6 rounded-lg">
                     <h3 className="text-xl font-semibold text-[#6f0d44] mb-4">Avaliação Detalhada</h3>
                     <p className="text-gray-600">
@@ -200,7 +200,7 @@ export function BrazilianSkinManchasSolaresPage() {
                 <h2 className="text-3xl font-bold text-[#6f0d44] mb-8">
                   Cuidados Essenciais
                 </h2>
-                <div className="bg-white/50 backdrop-blur-sm p-8 rounded-lg space-y-4">
+                <div className="bg-white/50 backdrop-blur-sm p-4 md:p-8 rounded-lg space-y-4">
                   {[
                     'Proteção solar reforçada',
                     'Hidratação adequada',

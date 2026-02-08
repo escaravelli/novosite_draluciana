@@ -57,7 +57,7 @@ export function PageHero({
   }, []);
 
   return (
-    <section className={cn("relative min-h-[85vh] overflow-hidden", className)}>
+    <section className={cn("relative min-h-[60vh] md:min-h-[80vh] overflow-hidden", className)}>
       {/* Background Image and Video */}
       <div className="absolute inset-0">
         <div className="relative h-full">
@@ -88,7 +88,7 @@ export function PageHero({
 
       {/* Content */}
       <div className="relative container h-full">
-        <div className="flex flex-col justify-center h-full min-h-[85vh] max-w-3xl pl-4">
+        <div className="flex flex-col justify-center h-full min-h-[60vh] md:min-h-[80vh] max-w-3xl px-4 sm:px-6 lg:pl-4">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -102,7 +102,7 @@ export function PageHero({
                 <ChevronRight className="h-4 w-4" />
               </div>
             )}
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-light mb-6 text-white tracking-tight">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-light mb-6 text-white tracking-tight">
               {title}
             </h1>
           </motion.div>

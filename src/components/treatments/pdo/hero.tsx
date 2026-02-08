@@ -4,7 +4,7 @@ import { ChevronRight, ArrowRight } from "lucide-react";
 
 export function PDOHero() {
   return (
-    <section className="relative min-h-[85vh] overflow-hidden">
+    <section className="relative min-h-[50vh] md:min-h-[70vh] overflow-hidden">
       {/* Background Video or Image */}
       <div className="absolute inset-0">
         <div className="relative h-full">
@@ -17,8 +17,8 @@ export function PDOHero() {
         </div>
       </div>
 
-      <div className="relative container mx-auto px-4 h-full">
-        <div className="flex flex-col justify-center h-full min-h-[85vh] max-w-3xl">
+      <div className="relative container mx-auto px-4 sm:px-6 lg:px-8 h-full">
+        <div className="flex flex-col justify-center h-full min-h-[50vh] md:min-h-[70vh] max-w-3xl">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -30,7 +30,7 @@ export function PDOHero() {
               <ArrowRight className="h-4 w-4" />
             </div>
 
-            <h1 className="text-6xl md:text-8xl font-light text-white tracking-tight">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-light text-white tracking-tight">
               Fios de PDO
               <br />
               <span className="font-semibold">High-Tech</span>

@@ -3,12 +3,12 @@ import { Award, Users } from "lucide-react";
 
 export function ProfileHero() {
   return (
-    <section className="relative min-h-[70vh] flex items-center bg-[#6f0d44]">
+    <section className="relative min-h-[50vh] md:min-h-[70vh] flex items-center bg-[#6f0d44]">
       <div className="absolute inset-0 opacity-10">
         <div className="absolute inset-0 bg-[url('/pattern.svg')] bg-repeat bg-center" />
       </div>
 
-      <div className="container mx-auto px-4 py-24">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-24">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <motion.div
             initial={{ opacity: 0, x: -50 }}
@@ -20,7 +20,7 @@ export function ProfileHero() {
               <Award className="h-5 w-5" />
               <span className="text-sm">Dermatologista CRM 123456</span>
             </div>
-            <h1 className="text-5xl md:text-7xl font-light tracking-tight">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-light tracking-tight">
               Dra. Luciana
               <br />
               <span className="font-semibold">Maluf</span>

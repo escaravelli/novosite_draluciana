@@ -37,14 +37,14 @@ const courses: Course[] = [
 
 export function CoursesPage() {
   return (
-    <div className="py-24 bg-gradient-to-b from-white to-[#fff5f8]">
-      <div className="container mx-auto px-4">
+    <div className="pt-24 md:pt-32 pb-12 md:pb-24 bg-gradient-to-b from-white to-[#fff5f8]">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="max-w-3xl mx-auto text-center mb-16"
+          className="max-w-3xl mx-auto text-center mb-8 md:mb-16"
         >
           <h1 className="text-4xl md:text-5xl font-bold text-[#6f0d44] mb-4">
             Cursos Exclusivos
@@ -54,7 +54,7 @@ export function CoursesPage() {
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-10">
           {courses.map((course, index) => (
             <motion.div
               key={index}
@@ -64,7 +64,7 @@ export function CoursesPage() {
               transition={{ duration: 0.5, delay: index * 0.1 }}
               className="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500"
             >
-              <div className="relative h-72 overflow-hidden">
+              <div className="relative h-48 md:h-72 overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent z-10" />
                 <img
                   src={course.image}
@@ -77,8 +77,8 @@ export function CoursesPage() {
                   </span>
                 </div>
               </div>
-              <div className="p-8">
-                <h3 className="text-2xl font-bold text-[#6f0d44] mb-3 line-clamp-2">
+              <div className="p-4 md:p-8">
+                <h3 className="text-xl md:text-2xl font-bold text-[#6f0d44] mb-3 line-clamp-2">
                   {course.title}
                 </h3>
                 {course.subtitle && (
@@ -86,7 +86,7 @@ export function CoursesPage() {
                     {course.subtitle}
                   </h4>
                 )}
-                <p className="text-gray-600 mb-8 line-clamp-3">
+                <p className="text-gray-600 mb-4 md:mb-8 line-clamp-3">
                   {course.description}
                 </p>
                 <a

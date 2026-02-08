@@ -12,7 +12,7 @@ export function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="text-4xl md:text-6xl lg:text-7xl font-light mb-6 text-white tracking-tight"
+            className="text-4xl md:text-5xl lg:text-6xl font-light mb-6 text-white tracking-tight"
           >
             Dermatologia<br />
             <span className="font-semibold">Especializada</span>
@@ -34,13 +34,13 @@ export function Hero() {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="grid grid-cols-2 gap-4 mb-8"
           >
-            <div className="bg-white/10 backdrop-blur-md rounded-2xl p-6 text-center">
-              <div className="text-3xl font-semibold text-white mb-2">20+</div>
-              <div className="text-sm text-white/80">Anos de Experiência</div>
+            <div className="bg-white/10 backdrop-blur-md rounded-2xl p-4 md:p-6 text-center">
+              <div className="text-2xl md:text-3xl font-semibold text-white mb-2">20+</div>
+              <div className="text-xs md:text-sm text-white/80">Anos de Experiência</div>
             </div>
-            <div className="bg-white/10 backdrop-blur-md rounded-2xl p-6 text-center">
-              <div className="text-3xl font-semibold text-white mb-2">7k+</div>
-              <div className="text-sm text-white/80">Pacientes Atendidos</div>
+            <div className="bg-white/10 backdrop-blur-md rounded-2xl p-4 md:p-6 text-center">
+              <div className="text-2xl md:text-3xl font-semibold text-white mb-2">7k+</div>
+              <div className="text-xs md:text-sm text-white/80">Pacientes Atendidos</div>
             </div>
           </motion.div>
 
